@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD - Cadatro</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>CADASTRO</h1>
+      <div class="card">
+        <div class="photo-section">
+          <div class="photo-upload">
+            <img src="assets/image-icon.png" alt="img-logo" />
+          </div>
+          <div class="msg">clique no icone para anexar imagem</div>
+        </div>
+        <form action="">
+          <div class="input-group">
+            <label for="">descrição</label>
+            <input type="text" id="descricao" required />
+          </div>
+          <div class="input-group">
+            <label for="">código de barras</label>
+            <input type="text" id="barras" required />
+          </div>
+          <div class="input-group">
+            <label for="">marca</label>
+            <input type="text" id="marca" />
+          </div>
+          <div class="input-group">
+            <label for="">complemento</label>
+            <input type="text" id="complemento" />
+          </div>
+          <div class="input-group">
+            <label for="">quantidade caixa</label>
+            <input type="text" id="quantidade" required />
+          </div>
+          <div class="input-group">
+            <label for="">tipo de unidade</label>
+            <input type="text" id="tipo" required />
+          </div>
+          <div class="buttons">
+            <button class="cancel">cancelar</button>
+            <button class="submit">concluir</button>
+          </div>
+        </form>
+      </div>
+      <footer>adicionar - editar</footer>
+    </div>
+  </body>
+</html>
